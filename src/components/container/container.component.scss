@@ -1,16 +1,13 @@
 
 .ngx-dnd-container {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid red;
+  //background-color: rgba(255, 255, 255, 0.2);
+  //border: 2px solid red;
   margin: 10px;
-  padding: 10px;
+  padding: 0px;
+  //padding: 10px;
 
   &.gu-empty {
     border: 2px dotted red;
-  }
-
-  &:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.2);
   }
 
   .ex-moved {

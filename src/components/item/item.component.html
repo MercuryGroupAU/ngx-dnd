@@ -24,8 +24,8 @@
         {{model.label}}
       </div>
       <ngx-dnd-container
-        *ngIf="model.children"
-        [model]="model.children"
+        *ngIf="model.group"
+        [model]="model.group"
         [template]="container.template"
         [dropZone]="dropZone"
         [dropZones]="dropZones"
