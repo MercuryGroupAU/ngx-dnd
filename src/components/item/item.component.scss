@@ -6,6 +6,7 @@
   transition: opacity 0.4s ease-in-out;
   border: 1px solid lightblue;
   display: block;
+  min-height:45px;
 
   &:not(.has-handle):not(.move-disabled),
   &.has-handle [ngxdraghandle],
